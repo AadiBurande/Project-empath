@@ -1,0 +1,50 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Node.js
+node_modules/
+Frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Frontend/dist/
+Frontend/build/
+
+# Python Virtual Envs & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+Backend/venv/
+Backend/__pycache__/
+Backend/app/__pycache__/
+Backend/core/__pycache__/
+
+# ML Models & Weights
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+Backend/models/*.onnx
+Backend/models/*.pkl
+Backend/models/*.xml
+
+# MongoDB Database Files (Local storage data files)
+Database/*.wt
+Database/*.turtle
+Database/*.lock
+Database/diagnostic.data/
+Database/journal/
+Database/data/
+mongodb/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
